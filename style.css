@@ -75,10 +75,32 @@ body {
     border-bottom-right-radius: 120px;
 }
 
+.effortless img {
+    margin-left: 146px;
+}
+
+.effortless p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.effortless h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.effortless .effortless-desc {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
     .btn-secondary, .btn-primary {
         margin-left: 0 !important;
         margin-top: 10px;
+    }
+    .effortless img {
+        margin: 0 !important;
     }
 
 }
