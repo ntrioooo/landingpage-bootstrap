@@ -94,12 +94,47 @@ body {
     font-weight: bold;
 }
 
+.product-mana p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-mana h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.marketers img {
+    margin-left: 146px;
+}
+
+.marketers p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.marketers h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.marketers .marketers-desc {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
     .btn-secondary, .btn-primary {
         margin-left: 0 !important;
         margin-top: 10px;
     }
     .effortless img {
+        margin: 0 !important;
+    }
+    .marketers img {
         margin: 0 !important;
     }
 
